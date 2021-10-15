@@ -1,0 +1,10 @@
+.bio-panel {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border: thin dashed gray;
+  width: 90%;
+  text-align: center;
+  background-color: $offwhite;
+}
