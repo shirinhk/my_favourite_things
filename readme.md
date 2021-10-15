@@ -3,8 +3,8 @@
 
 
 ## Using JavaScript to complete the Project.
-### 1. Design a mobile-first one page web application 
-### 2. Creating a template to generate multiple copies of markup. 
+### 1. Design a mobile-first one page web application
+### 2. No need to use a template to generate multiple copies of markup.
 ### 2. Creating a Json object file which contains all data.
 ### 3. Use JavaScript to fetch data from Json file.
 ### 4. Design some buttons on a landing page and connect each to related data on Json object.
