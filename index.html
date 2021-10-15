@@ -12,16 +12,12 @@
 <body>
     <h1>A FEW OF MY FAVORITE THINGS</h1>
     <div class="btnStyle">
-        <section><button type="button" data-key="coding" class="button"> Favorite 1 </button></section>
-        <section><button type="button" data-key="iceSkating" class="button"> Favorite 2 </button></section>
-        <section><button type="button" data-key="painting" class="button"> Favorite 3 </button></section>
+        <section><button type="button" data-key="coding" class="button no1"> Favorite 1 </button></section>
+        <section><button type="button" data-key="iceSkating" class="button no2"> Favorite 2 </button></section>
+        <section><button type="button" data-key="painting" class="button no3"> Favorite 3 </button></section>
     </div>
-    <section id="teamSection" class="hidden"></section>
-
-    <!-- template tags at the bottom -->
-    <!-- template tags don't get rendered - they just hold reusable content -->
-    <template id="bio-template">
-        <section class="bio-panel">
+    <section id="teamSection">
+        <section class="bio-panel hidden">
             <div class="p_avatar">
                 <!-- this is index 0 (the first child)-->
                 <img src="" alt="">
@@ -38,7 +34,7 @@
                 slug
             </p>
         </section>
-    </template>
+    </section>
 
     <script src="js/main.js" type="module" defer></script>
 </body>
