@@ -1,0 +1,32 @@
+@keyframes mymove {
+    
+    from {bottom: -150px;}
+    to {bottom: 0px;}
+}
+
+.no1 {
+    animation-timing-function: linear;
+    animation: mymove 5s;
+    position: relative;
+}
+
+.no2 {
+    animation-timing-function: ease;
+    animation: mymove 10s;
+    position: relative;
+}
+
+.no3 {
+    animation-timing-function: ease-in;
+    animation: mymove 15s;
+    position: relative;
+}
+
+
+.bio-panel {
+
+    animation-timing-function: ease-out;
+    animation: mymove 8s;
+    position: relative;
+
+}
