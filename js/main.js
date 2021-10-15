@@ -1,4 +1,4 @@
-() => {
+(() => {
 
     const btns = document.querySelectorAll('.button');
 
@@ -43,3 +43,5 @@
     getData();
 
 })();
+
+
