@@ -1,0 +1,80 @@
+img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+body {
+  color: $main-color;
+  font-size: $main-size;
+  font-family: $main-font;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: $main-heading;
+  font-weight: $head-font;
+  text-align: center;
+  margin: 50px 0 50px 0;
+  color: $purple;
+}
+
+h2 {
+  font-size: $second-heading;
+  margin-bottom: 20px;
+  font-weight: $head-font;
+  color: $pink;
+}
+
+h3 {
+  font-size: $third-heading;
+  margin-bottom: 20px;
+  font-weight: $head-font;
+}
+
+p {
+  margin: 0 5px 20px 5px;
+  line-height: 120%;
+}
+
+.p_description {
+  color: $orange;
+}
+
+.hidden {
+  display: none;
+}
+
+.btnStyle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button {
+  margin: 30px;
+  width: 50%;
+  padding: 30px;
+  font-size: $main-heading;
+  font-weight: $head-font;
+  color: $offwhite;
+  background-color: $pink;
+  border-radius: 50%;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  body {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+}
